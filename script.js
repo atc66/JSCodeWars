@@ -259,3 +259,32 @@
 // 		return (x * factorial(x-1));
 // 	}
 // }
+
+// 1. Write a function (try to use filter function in JS) that fiters only the positive odd numbers from an array. For example,
+// array = [1,2,3,-5,-6,-7,4] -> [1,3]
+// var array = [1,2,3,-5,-6,-7,4,222, 333, -400, -455];  /*[1,3,33]*/
+// var solution = [];
+
+// function findPosOdd(x){
+// 	for(i=0; i<x.length; i++){
+// 		if(x[i] > 0 && x[i]%2 != 0){
+// 			solution.push(x[i])
+// 		}
+// 	}
+// 	return solution;
+// }
+
+
+// Palindrome
+// string = "racecar"
+
+// function palindrome(x){
+// 	// break the string into individual letters, reverse them, join them into one string.
+// 	var a = x.split("").reverse().join('')
+// 	// compare the result to the original value
+// 	if(a === string){
+// 		console.log(a + ' is a palindrome!')
+// 	} else{
+// 		console.log(a + ' is not a palindrome!')
+// 	}
+// }
