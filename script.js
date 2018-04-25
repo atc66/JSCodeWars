@@ -288,3 +288,15 @@
 // 		console.log(a + ' is not a palindrome!')
 // 	}
 // }
+
+// Write a function that prints all the numbers from 1 to 100; if a number is divisible by 7 add the line 'this is divisible by 7'.
+
+function divis7(){
+	for(i=0; i<=100; i++){
+		if(i%7 === 0){
+			console.log(i + " is divisible by 7")
+		} else {
+			console.log(i);
+		}
+	}
+}
