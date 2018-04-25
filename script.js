@@ -363,19 +363,35 @@
 //  math("*", 4, 5) ---> 20
 
 
-function math(a, b, c){
-	if ( a == "*"){
-		return b * c
+// function math(a, b, c){
+// 	if ( a == "*"){
+// 		return b * c
+// 	}
+// 	else if ( a == "+"){
+// 		return b + c
+// 	}
+// 	else if ( a == "-"){
+// 		return b - c
+// 	}
+// 	else if (a == "/"){
+// 		return b/c
+// 	}
+// }
+
+// 2.  Write a function that takes in an array of strings and returns all of them
+// concatenated together. You may not use any String functions.
+// example:
+// ["abra", "cadabra"] returns "abracadabra"
+// ["a", "b", "c"] returns "abc"
+var abra = ["abra", "cadabra"]
+var letters = ["a","b","c"]
+var solution = '';
+
+function joiner (x){
+	for (i = 0; i < x.length; i++){
+		solution+=x[i]
 	}
-	else if ( a == "+"){
-		return b + c
-	}
-	else if ( a == "-"){
-		return b - c
-	}
-	else if (a == "/"){
-		return b/c
-	}
+	return solution
 }
 
 
