@@ -214,4 +214,34 @@
 //   	return x;
 // }
 
+// a) Write a method that gives you the sum of all numbers that are mulitpliers of 3 and 4 under 1000
 
+// var result = 0;
+// // expected result with 30 is 36
+
+// function under(){
+// 	// for loop going up to 1000
+// 	for(i=0; i<=1000;i++){
+// 		// find numbers both divisble by 3 and 4,
+// 		if(i%3 === 0 && i%4 === 0){
+// 			// add those numbers to blank results array
+// 			result += i; 
+// 		}
+// 	}
+// 	console.log(result);
+// }
+
+// b) Write a function that takes in one parameter "length" and prints out that many stars - example:
+//  3 --> ***
+//  5 --> *****
+
+function star(x){
+	// set result to an empty quote
+	var result="";
+	// for loop through the value of the argument
+	for(i=0; i<x; i++){
+		// add a * for every loop through
+		result += '*';
+	}
+	return result;
+}
