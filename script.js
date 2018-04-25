@@ -117,27 +117,48 @@
 // 	console.log(sum)
 // }
 
-// Add the value of an array nested in an object
-var obj = {
-    name: 'torture',
-    miniObj: {
-        name: 'Minitorture',
-        array: [{
-            numbers: [['a', 'b', 'c'], [1,2,3,4,5,6,7,8,9],             ['fun']]
-        }]
-    }
-}
-// expected answer 45
+// // Add the value of an array nested in an object
+// var obj = {
+//     name: 'torture',
+//     miniObj: {
+//         name: 'Minitorture',
+//         array: [{
+//             numbers: [['a', 'b', 'c'], [1,2,3,4,5,6,7,8,9],             ['fun']]
+//         }]
+//     }
+// }
+// // expected answer 45
 
-var x = obj.miniObj.array[0].numbers[1];
-var sum = 0;
+// var x = obj.miniObj.array[0].numbers[1];
+// var sum = 0;
 
-function addObj(x){
-	for( i=0; i<x.length;i++){
-		sum += x[i];
-	}
-	console.log(sum)
-}
+// function addObj(x){
+// 	for( i=0; i<x.length;i++){
+// 		sum += x[i];
+// 	}
+// 	console.log(sum)
+// }
+
+//  write a function that takes an array as an argument and 
+// returns the highest number of this array
+
+// var test3 = [5000, 4]
+// var test2 = [70, 80, 900, 700]
+// var test = [1, 3, 2, 7, 15, 9, 11]; 
+// var test4 = [-33, -44, -55, 6]
+
+// function largest (x){
+// 	// set variable to first number in an array
+// 	num = x[0];
+// 	// for loop through the argument
+// 	for (i=0; i<x.length;i++){
+// 		// if current number in loop is greater than the first number in array, set that as the new number thus the highest.
+// 		if(x[i]>num){
+// 			num = x[i];
+// 		}
+// 	}
+// 	console.log(num);
+// }
 
 
 
