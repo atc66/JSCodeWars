@@ -290,13 +290,23 @@
 // }
 
 // Write a function that prints all the numbers from 1 to 100; if a number is divisible by 7 add the line 'this is divisible by 7'.
+// function divis7(){
+// 	for(i=0; i<=100; i++){
+// 		if(i%7 === 0){
+// 			console.log(i + " is divisible by 7")
+// 		} else {
+// 			console.log(i);
+// 		}
+// 	}
+// }
 
-function divis7(){
-	for(i=0; i<=100; i++){
-		if(i%7 === 0){
-			console.log(i + " is divisible by 7")
-		} else {
-			console.log(i);
-		}
-	}
-}
+// 1. Write a function that takes an array as an argument and returns the array in reverse order e.g.
+// [2,3,4,5,6,7]  ----> [7, 6, 5, 4, 3, 2]
+
+// var array1 = [2,3,4,5,6,7]
+
+// function reverse(x){
+// 	// set variable to reverse of the argument.reverse
+// 	y = x.reverse();
+// 	console.log(y);
+// }
