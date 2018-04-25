@@ -164,18 +164,38 @@
 // only the even numbers from the first array. For instance, 
 // if you pass your function an array of [1, 3, 4, 6, 9], your function should return [4, 6].
 
-var test = [1, 3, 4, 6, 9];
-var arr = [];
+// var test = [1, 3, 4, 6, 9];
+// var arr = [];
 
-function findEven(x){
-	for (i=0; i<x.length;i++){
-		if (x[i]%2 === 0){
-			arr.push(x[i]);
+// function findEven(x){
+// 	for (i=0; i<x.length;i++){
+// 		if (x[i]%2 === 0){
+// 			arr.push(x[i]);
+// 		}
+// 	}
+// 	console.log(arr);
+// }
+
+
+// 2.  Write a program that prints the numbers from 1 to 100. 
+// For multiples of three print “Rick” instead of the number and for the multiples of five print “Roll”. 
+// For numbers which are multiples of both three and five print "RickRoll".
+
+// No argument needed
+function rickRoll(){
+	// Call rickRoll, starting with the phrase RickRoll as 0, and console log number 1-100
+	for(i=0; i<101;i++){
+		if (i%3 === 0 && i%5 === 0){
+			console.log("RickRoll")
+		} else if ( i%3 === 0){
+			console.log("Rick")
+		} else if (i%5 === 0){
+			console.log("Roll")
+		} else {
+			console.log(i)
 		}
 	}
-	console.log(arr);
 }
-
 
 
 
