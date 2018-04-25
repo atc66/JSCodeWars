@@ -106,14 +106,36 @@
 // }
 
 // Add the value of an array
-test = [1, 1, 3, 1];
-// expected anser 6
+// test = [1, 1, 3, 1];
+// // expected anser 6
+// var sum = 0;
+
+// function add(x){
+// 	for(i=0; i<x.length; i++) {
+// 		sum += x[i];
+// 	} 
+// 	console.log(sum)
+// }
+
+// Add the value of an array nested in an object
+var obj = {
+    name: 'torture',
+    miniObj: {
+        name: 'Minitorture',
+        array: [{
+            numbers: [['a', 'b', 'c'], [1,2,3,4,5,6,7,8,9],             ['fun']]
+        }]
+    }
+}
+// expected answer 45
+
+var x = obj.miniObj.array[0].numbers[1];
 var sum = 0;
 
-function add(x){
-	for(i=0; i<x.length; i++) {
+function addObj(x){
+	for( i=0; i<x.length;i++){
 		sum += x[i];
-	} 
+	}
 	console.log(sum)
 }
 
