@@ -352,6 +352,31 @@
 // 	}
 // }
 
+// 3. write a function that takes in a math operator as a string followed by two parameters, x and y, then
+//  return the result of that math operation applied to the two parameters.
+//  examples:
+//  math("*", 2, 3) ---> 6
+//  math("+", 4, 5) ---> 9
+
+//  math("/", 5, 5) ---> 1
+
+//  math("*", 4, 5) ---> 20
+
+
+function math(a, b, c){
+	if ( a == "*"){
+		return b * c
+	}
+	else if ( a == "+"){
+		return b + c
+	}
+	else if ( a == "-"){
+		return b - c
+	}
+	else if (a == "/"){
+		return b/c
+	}
+}
 
 
 
