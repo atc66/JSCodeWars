@@ -383,17 +383,41 @@
 // example:
 // ["abra", "cadabra"] returns "abracadabra"
 // ["a", "b", "c"] returns "abc"
-var abra = ["abra", "cadabra"]
-var letters = ["a","b","c"]
-var solution = '';
+// var abra = ["abra", "cadabra"]
+// var letters = ["a","b","c"]
+// var solution = '';
 
-function joiner (x){
-	for (i = 0; i < x.length; i++){
-		solution+=x[i]
+// function joiner (x){
+// 	for (i = 0; i < x.length; i++){
+// 		solution+=x[i]
+// 	}
+// 	return solution
+// }
+
+// var arr = [1,2,3]
+// result = 0;
+
+// function add (x){
+// 	for (i=0;i<x.length;i++){
+// 		result += x[i];
+// 	}
+// 	return result
+// }
+
+// write a function named stringy that takes a size and returns a string of alternating '1s' and '0s'. the string should start with a 1. a string with size 6 should return :'101010'. with size 4 should return : '1010'. with size 12 should return : '101010101010'. The size will always be positive and will only use whole numbers.
+
+var solution='';
+
+function stringy(x){
+	for(i=0; i<x; i++){
+		if (i%2 !== 1){
+			solution += "1"
+		} else if (i%2 === 1){
+			solution += "0"
+		}
 	}
 	return solution
 }
-
 
 
 
