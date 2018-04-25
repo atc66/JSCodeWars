@@ -310,3 +310,26 @@
 // 	y = x.reverse();
 // 	console.log(y);
 // }
+
+// 1. given a string, create a function that returns the last character in that string. In JS
+// examples:
+// "morning" --> g
+// "winter" --> r
+
+// var morn = 'morning';
+// var wint = 'winter';
+// var blank = [];
+
+// function lastLetter(x){
+// 	// split the string to a blank array
+// 	blank=x.split('');
+// 	// remove the last value in the array
+// 	ans=blank.pop()
+// 	return ans;
+// }
+
+
+
+
+
+
