@@ -182,21 +182,36 @@
 // For numbers which are multiples of both three and five print "RickRoll".
 
 // No argument needed
-function rickRoll(){
-	// Call rickRoll, starting with the phrase RickRoll as 0, and console log number 1-100
-	for(i=0; i<101;i++){
-		if (i%3 === 0 && i%5 === 0){
-			console.log("RickRoll")
-		} else if ( i%3 === 0){
-			console.log("Rick")
-		} else if (i%5 === 0){
-			console.log("Roll")
-		} else {
-			console.log(i)
-		}
-	}
-}
+// function rickRoll(){
+// 	// Call rickRoll, starting with the phrase RickRoll as 0, and console log number 1-100
+// 	for(i=0; i<101;i++){
+// 		if (i%3 === 0 && i%5 === 0){
+// 			console.log("RickRoll")
+// 		} else if ( i%3 === 0){
+// 			console.log("Rick")
+// 		} else if (i%5 === 0){
+// 			console.log("Roll")
+// 		} else {
+// 			console.log(i)
+// 		}
+// 	}
+// }
 
+// 1. write a function that takes an array of names and returns a whole string of these names with comma and the word 'and' before the last name;
+// ["John", "George", "James", "Anna"] ---> "John, George, James, and Anna";
 
+// var names = ["John", "George", "James", "Anna"];
+
+// function addAnd(x){
+// 	// set last name in array to variable
+// 	var replace = x[x.length-1];
+// 	// take off the last name in the array
+// 	x.splice(-1,1)
+// 	// add "and" and the last name in the array" to the last spot in the array
+//   	x.push("and " + replace);
+//   	// join the values of the array into one string but separate with a comma
+//   	x = x.join(', ');
+//   	return x;
+// }
 
 
