@@ -329,6 +329,29 @@
 // }
 
 
+// 2. given two arrays that contain integers with no duplicates, create a function that determines
+// whether they contain the exact same elements.
+// examples:
+//  [1, 2, 3], [3, 2, 1] --> true
+//  [1, 2, 3], [2, 3, 4] --> false
+
+
+// a = [1,2,3];
+// b = [3,2,1];
+
+// c = [3,4,5]
+// d = [1,2,3]
+
+// function compare(x,y){
+// 	num1 = x.sort().join('');
+// 	num2 = y.sort().join('');
+// 	if (num1 === num2){
+// 		return true;
+// 	}else{
+// 		return false;
+// 	}
+// }
+
 
 
 
