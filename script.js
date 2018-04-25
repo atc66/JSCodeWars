@@ -235,13 +235,27 @@
 //  3 --> ***
 //  5 --> *****
 
-function star(x){
-	// set result to an empty quote
-	var result="";
-	// for loop through the value of the argument
-	for(i=0; i<x; i++){
-		// add a * for every loop through
-		result += '*';
-	}
-	return result;
-}
+// function star(x){
+// 	// set result to an empty quote
+// 	var result="";
+// 	// for loop through the value of the argument
+// 	for(i=0; i<x; i++){
+// 		// add a * for every loop through
+// 		result += '*';
+// 	}
+// 	return result;
+// }
+
+// d) Write a function that takes a number and gives the factorial of this number. Example:
+// 5 -> 120
+// 6 - 720
+
+// function factorial(x){
+// 	if (x < 0){
+// 		return -1;
+// 	} else if (x === 0 ){
+// 		return 1;
+// 	} else {
+// 		return (x * factorial(x-1));
+// 	}
+// }
