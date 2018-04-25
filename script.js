@@ -160,7 +160,21 @@
 // 	console.log(num);
 // }
 
+// / 1.  Write a function that takes an array of numbers and creates a new array with 
+// only the even numbers from the first array. For instance, 
+// if you pass your function an array of [1, 3, 4, 6, 9], your function should return [4, 6].
 
+var test = [1, 3, 4, 6, 9];
+var arr = [];
+
+function findEven(x){
+	for (i=0; i<x.length;i++){
+		if (x[i]%2 === 0){
+			arr.push(x[i]);
+		}
+	}
+	console.log(arr);
+}
 
 
 
