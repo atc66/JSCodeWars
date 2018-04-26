@@ -406,18 +406,38 @@
 
 // write a function named stringy that takes a size and returns a string of alternating '1s' and '0s'. the string should start with a 1. a string with size 6 should return :'101010'. with size 4 should return : '1010'. with size 12 should return : '101010101010'. The size will always be positive and will only use whole numbers.
 
-var solution='';
+// var solution='';
 
-function stringy(x){
-	for(i=0; i<x; i++){
-		if (i%2 !== 1){
-			solution += "1"
-		} else if (i%2 === 1){
-			solution += "0"
-		}
-	}
-	return solution
+// function stringy(x){
+// 	for(i=0; i<x; i++){
+// 		if (i%2 !== 1){
+// 			solution += "1"
+// 		} else if (i%2 === 1){
+// 			solution += "0"
+// 		}
+// 	}
+// 	return solution
+// }
+
+// Task
+// Given a Divisor and a Bound , Find the largest integer N , Such That ,
+// Conditions :
+// N is divisible by divisor
+// N is less than or equal to bound
+// N is greater than 0.
+
+var solution = [];
+function maxMultiple(a, b){
+  for(i=1; i<=b; i++){
+  	c = a*[i]
+  	console.log(c)
+  	if (a>b){
+  		return 0;
+  	} else if(c < b || c == b){
+  		solution.push(c);
+  	}
+  }
+return solution.pop(); 
 }
-
 
 
