@@ -426,18 +426,35 @@
 // N is less than or equal to bound
 // N is greater than 0.
 
-var solution = [];
-function maxMultiple(a, b){
-  for(i=1; i<=b; i++){
-  	c = a*[i]
-  	console.log(c)
-  	if (a>b){
-  		return 0;
-  	} else if(c < b || c == b){
-  		solution.push(c);
-  	}
-  }
-return solution.pop(); 
+// var solution = [];
+// function maxMultiple(a, b){
+//   for(i=1; i<=b; i++){
+//   	c = a*[i]
+//   	console.log(c)
+//   	if (a>b){
+//   		return 0;
+//   	} else if(c < b || c == b){
+//   		solution.push(c);
+//   	}
+//   }
+// return solution.pop(); 
+// }
+
+
+// Given two numbers x and n, calculate the (positive) nth root of x.
+
+function root(x, n) {
+  return Math.pow(x, 1/n);
 }
+
+
+
+
+
+
+
+
+
+
 
 
