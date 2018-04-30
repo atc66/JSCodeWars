@@ -484,14 +484,16 @@
 
 
 arr = [-8,0,2,5];
-// var sol = -1
+
 
 function indexEqualsValueSearch(arr) {
-	var sol = -1;
+	var sol;
 	for (i=0; i< arr.length; i++){
   		if(arr[i]==i){
   			sol = i;
   			break;
+  		} else {
+  			sol = -1;
   		}
 	}
 	return sol;
