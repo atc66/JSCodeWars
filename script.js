@@ -443,17 +443,59 @@
 
 // Given two numbers x and n, calculate the (positive) nth root of x.
 
-function root(x, n) {
-  return Math.pow(x, 1/n);
+// function root(x, n) {
+//   return Math.pow(x, 1/n);
+// }
+
+// find smallest integer
+// arr = [78,56,8,232,12,]
+
+// function smallest (arr){
+// 	small = arr[0];
+// 	for (i=0; i<arr.length;i++){
+// 		if(arr[i]<small){
+// 			small = arr[i];
+// 		}
+// 	}
+// 	return small;
+// }
+
+// twoOldestAges( [1, 2, 10, 8] )  should return [8, 10]
+// 1,5,87,45,8,8 should return 45,87
+// arr = [87,1,5,45,8,8]
+// sol = [,]
+// function oldest(arr){
+// 	if(arr[0]>arr[1]){
+// 		sol[0]=arr[1];
+// 		sol[1]=arr[0];
+// 	} else if (arr[1]>arr[0]){
+// 		sol[0]=arr[0];
+// 		sol[1]=arr[1];
+// 	} for (i=2;i<arr.length;i++){
+// 		if(arr[i]<sol[1] && arr[i]>sol[0]){
+// 			sol[0]=arr[i];
+// 		} else if (arr[i]>sol[1] && arr[i]>sol[0]){
+// 			sol[0]=sol[1];
+// 			sol[1]=arr[i];
+// 		}
+// 	}
+// 	return sol;
+// }
+
+
+arr = [-8,0,2,5];
+// var sol = -1
+
+function indexEqualsValueSearch(arr) {
+	var sol = -1;
+	for (i=0; i< arr.length; i++){
+  		if(arr[i]==i){
+  			sol = i;
+  			break;
+  		}
+	}
+	return sol;
 }
-
-
-
-
-
-
-
-
 
 
 
