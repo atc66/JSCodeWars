@@ -667,10 +667,10 @@
 // nb_year(1500000, 2.5, 10000, 2000000) -> 10
 // Note: Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
 
-p0 = 1500
-percent = 5
-aug = 100
-p = 5000
+// p0 = 1500
+// percent = 5
+// aug = 100
+// p = 5000
 
 // function nbYear(p0, percent, aug, p) {
 //     var currPop = p0;
@@ -682,12 +682,37 @@ p = 5000
 //     return Year
 // }
 
-function nbYear(p0, percent, aug, p) {
-	for(i=0; p0<p;i++){
-		p0 = p0+(p0*(percent/100))+aug;
-	}
-	return i
-}
+// function nbYear(p0, percent, aug, p) {
+// 	for(i=0; p0<p;i++){
+// 		p0 = p0+(p0*(percent/100))+aug;
+// 	}
+// 	return i
+// }
+
+// Mr. Scrooge has a sum of money 'P' that wants to invest, and he wants to know how many years 'Y' this sum has to be kept in the bank in order for this sum of money to amount to 'D'.
+
+// The sum is kept for 'Y' years in the bank where interest 'I' is paid yearly, and the new sum is re-invested yearly after paying tax 'T'
+
+// Note that the principal is not taxed but only the year's accrued interest
+
+// principal = 1000.00      
+// interest = 0.05      
+// tax = 0.18      
+// desired= 1100.00
+
+// function calculateYears(principal, interest, tax, desired) {
+//   //   prin = principal
+//   //   year = 0
+//  	// while (prin < desired){
+//  	// 	year++;
+//  	// 	prin = (prin +(prin*interest)) -((prin*interest)*tax)
+//  	// }
+//  	// return year
+//  	for(i=0; principal<desired; i++){
+//       principal = (principal + (principal*interest))-((principal*interest)*tax)  
+//     }
+// return i
+// }
 
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
