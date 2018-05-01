@@ -611,3 +611,42 @@
 //   return on-off
 // }
 
+// Can you find the needle in the haystack?
+// Write a function findNeedle() that takes an array full of junk but containing one "needle"
+// After your function finds the needle it should return a message (as a string) that says:
+// "found the needle at position " plus the index it found the needle, so:
+
+haystack = ['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false];
+
+function findNeedle(haystack) {
+	for (i=0; i<haystack.length; i++){
+  		if (haystack[i] === 'needle'){
+    		return ("Found the needle at position " + [i]);
+  		}
+	}
+}
+
+
+
+
+
+// week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
+
+// console.log(week[week.length-1])
+// // iron = 0;
+// // steel = 0;
+// // chrom = 0;
+// function deathStar(week){
+// 	iron = 0;
+// 	steel = 0;
+// 	chrom = 0;
+// 	for(i=0; i<(week[week.length-1]); i++){
+// 		iron += week[i][0];
+// 		steel += week[i][1];
+// 		chrom += week[i][2];
+// 	} if (iron > 100 && steel > 75 && chrom >50){
+// 		return "The station is completed!"
+// 	} else {
+// 		return ("The station is destroyed! It needed " + (100-iron) + " iron, " + (75-steel) + " steel and " + (50-chrom) + " chromium for completion.")
+// 	}
+// }
