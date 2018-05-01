@@ -51,7 +51,7 @@
 // if bmi > 30 return "Obese"
 
 // function bmi(w, h) {
-//   var bmi = (w/(h^2));
+//   var bmi = (w/(h*h));
 //   if (bmi <= 18.5){
 //     return "Underweight"
 //   } else if (bmi <= 25.0){
@@ -568,17 +568,46 @@
 // 	return result
 // }
 
-function doris(i){
-	// for(i=0;i<=100; i++){
-		if (i%2 !== 0){
-			console.log(i +'weird')
-		} else if (i%2 === 0 && i>=2 && i<=5){
-			console.log(i +'Not weird')
-		} else if (i%2 === 0 && i>=6 && i<=20){
-			console.log(i +'Weird')
-		}else if (i%2 === 0 && i>20){
-			console.log(i + 'Not Weird')
-		}
-	// }
-}
+// function doris(i){
+// 	// for(i=0;i<=100; i++){
+// 		if (i%2 !== 0){
+// 			console.log(i +'weird')
+// 		} else if (i%2 === 0 && i>=2 && i<=5){
+// 			console.log(i +'Not weird')
+// 		} else if (i%2 === 0 && i>=6 && i<=20){
+// 			console.log(i +'Weird')
+// 		}else if (i%2 === 0 && i>20){
+// 			console.log(i + 'Not Weird')
+// 		}
+// 	// }
+// }
+
+// var array = [[10,0],[3,5],[5,8]]
+// 5
+// var array = [[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]
+// 17
+// var array =[[3,0],[9,1],[4,8],[12,2],[6,1],[7,8]]
+// // 21
+// var passengersOn = [];
+// var passengersOff = [];
+// var on = 0;
+// var off = 0;
+
+// function  busStops (array) {
+//  	for(i=0; i<array.length; i++){
+//     	passengersOn.push((array[i][0]))
+//     	passengersOff.push((array[i][1]))
+// 	}
+//     for(j=0; j<passengersOn.length; j++){
+//     	// console.log(passengersOn[j])
+//     	on += passengersOn[j];
+//     	// console.log(on)
+//     }
+//      for(k=0; k<passengersOff.length; k++){
+//     	// console.log(passengersOn[j])
+//     	off += passengersOff[k];
+//     	// console.log(off)
+//     }
+//   return on-off
+// }
 
