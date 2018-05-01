@@ -638,6 +638,24 @@
 // 	return answers
 // }
 
+// Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
+// str = "xxOo"
+// function XO(str) {
+// 	xs = []
+// 	os = []
+// 	string = str.split('');
+// 	for(i=0;i<string.length; i++){
+// 		if(string[i] == 'X' || string[i] == 'x'){
+//   			xs.push(string[i])
+// 		} else if (string[i] == 'O' || string[i] == 'o'){
+// 			os.push(string[i])
+// 		}
+//  	} if (xs.length == os.length){
+//   		return true
+//  	} else {
+//   		return false
+//   	}
+// }
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
 
