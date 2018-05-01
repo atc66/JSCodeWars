@@ -616,18 +616,27 @@
 // After your function finds the needle it should return a message (as a string) that says:
 // "found the needle at position " plus the index it found the needle, so:
 
-haystack = ['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false];
+// haystack = ['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false];
 
-function findNeedle(haystack) {
-	for (i=0; i<haystack.length; i++){
-  		if (haystack[i] === 'needle'){
-    		return ("Found the needle at position " + [i]);
-  		}
-	}
-}
+// function findNeedle(haystack) {
+// 	for (i=0; i<haystack.length; i++){
+//   		if (haystack[i] === 'needle'){
+//     		return ("Found the needle at position " + [i]);
+//   		}
+// 	}
+// }
 
 
+// answer = []
+// expected [1,2,4]
 
+// function powersOfTwo(n){
+// 	var answers = [];
+// 	for(var i=0; i<= n; i++){
+// 		answers.push(Math.pow(2, i));
+// 	}
+// 	return answers
+// }
 
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
