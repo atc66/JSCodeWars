@@ -714,6 +714,18 @@
 // return i
 // }
 
+word = "apple"
+
+function vowelIndices(word){
+	solution = [];
+	check = word.toLowerCase();
+  	for(i=0; i<check.length; i++){
+  		if(check[i] == 'a' || check[i] ==  "e" || check[i] == "i" || check[i] == "o" || check[i] == "u" || check[i] == "y"){
+  			solution.push(i+1);
+  		}
+  	}
+	return solution;
+}
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
 
