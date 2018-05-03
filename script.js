@@ -714,17 +714,31 @@
 // return i
 // }
 
-word = "apple"
+// word = "apple"
 
-function vowelIndices(word){
-	solution = [];
-	check = word.toLowerCase();
-  	for(i=0; i<check.length; i++){
-  		if(check[i] == 'a' || check[i] ==  "e" || check[i] == "i" || check[i] == "o" || check[i] == "u" || check[i] == "y"){
-  			solution.push(i+1);
-  		}
-  	}
-	return solution;
+// function vowelIndices(word){
+// 	solution = [];
+// 	check = word.toLowerCase();
+//   	for(i=0; i<check.length; i++){
+//   		if(check[i] == 'a' || check[i] ==  "e" || check[i] == "i" || check[i] == "o" || check[i] == "u" || check[i] == "y"){
+//   			solution.push(i+1);
+//   		}
+//   	}
+// 	return solution;
+// }
+
+// array = [1,2,3]
+array = [-23, 4, -5, 99, -27, 329, -2, 7, -921]
+
+function adjacentElementsProduct(array) {
+  var sol = ((array[0])*(array[1]));
+  for(i=0; i<array.length; i++){
+    check = ((array[i])*(array[i+1]));
+    if(check > sol){
+    	sol = check;
+    }
+  }
+  return sol;
 }
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
