@@ -717,29 +717,61 @@
 // word = "apple"
 
 // function vowelIndices(word){
-// 	solution = [];
-// 	check = word.toLowerCase();
-//   	for(i=0; i<check.length; i++){
-//   		if(check[i] == 'a' || check[i] ==  "e" || check[i] == "i" || check[i] == "o" || check[i] == "u" || check[i] == "y"){
-//   			solution.push(i+1);
-//   		}
-//   	}
-// 	return solution;
+	// solution = [];
+	// check = word.toLowerCase();
+ //  	for(i=0; i<check.length; i++){
+ //  		if(check[i] == 'a' || check[i] ==  "e" || check[i] == "i" || check[i] == "o" || check[i] == "u" || check[i] == "y"){
+ //  			solution.push(i+1);
+ //  		}
+ //  	}
+	// return solution;
 // }
 
 // array = [1,2,3]
-array = [-23, 4, -5, 99, -27, 329, -2, 7, -921]
+// array = [-23, 4, -5, 99, -27, 329, -2, 7, -921]
 
-function adjacentElementsProduct(array) {
-  var sol = ((array[0])*(array[1]));
-  for(i=0; i<array.length; i++){
-    check = ((array[i])*(array[i+1]));
-    if(check > sol){
-    	sol = check;
-    }
-  }
-  return sol;
-}
+// function adjacentElementsProduct(array) {
+//   var sol = ((array[0])*(array[1]));
+//   for(i=0; i<array.length; i++){
+//     check = ((array[i])*(array[i+1]));
+//     if(check > sol){
+//     	sol = check;
+//     }
+//   }
+//   return sol;
+// }
+
+// // Get the count of vowels ina  string
+// function getCount(str) {
+//   var vowelsCount = 0;
+//   var check = str.toLowerCase();
+//   for(i=0;i<check.length;i++){
+//     if (check[i] == 'a' || check[i] ==  "e" || check[i] == "i" || check[i] == "o" || check[i] == "u"){
+//     vowelsCount++;
+//     }
+//   }
+//   return vowelsCount;
+// }
+
+// find the sum of an array minus the highest and lowest numbers
+// array = []
+
+// function sumArray(array) {
+// 	sum = 0
+// 	if (array == null || array == 0 || array == []){
+// 		sum = 0;
+// 		return sum;
+// 	}
+// 	result = array.sort(function(a, b){return a - b})
+// 	result.shift()
+// 	result.pop()
+// 	for(i=0; i<result.length;i++){
+// 		sum += result[i]
+// 	}
+// 	return sum
+// }
+
+
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
 
