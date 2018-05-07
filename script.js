@@ -771,6 +771,46 @@
 // 	return sum
 // }
 
+// is sum of array odd or even
+// function oddOrEven(array) {
+//   sum = 0; 
+//   for (i=0;i<array.length;i++){
+//     sum += array[i]
+//   } if (sum%2 == 0){
+//     return 'even'
+//   } else if (sum%2 !== 0){
+//     return 'odd'
+//   } else {
+//     return 'even'
+//   }
+// }
+
+// How long do you need to cook this in a microwave/
+// Test
+// "600W", 4, 20, "800W"), "3 minutes 15 seconds"
+// ("800W", 3, 0, "1200W"), "2 minutes 0 seconds")
+// var neededPower = 800;
+// minutes = 3;
+// seconds = 0;
+// power = 1200;
+
+
+// function cookingTime(neededPower, minutes, seconds, power) {
+//  	let totalTime = ((minutes*60)+seconds);
+//  	let powerRate = (neededPower/power);
+//   	let timeNeeded = (totalTime*powerRate);
+//   	minute = (timeNeeded/60);
+//   	minute = (Math.ceil(minute-1))
+//   	subtract = ((minute)*60);
+//   	second = timeNeeded-(subtract);
+//   	if(second == 60){
+//   		minute++;
+//   		second = 0;
+//   	}
+//   	minAns = (Math.ceil(minute))
+//   	secAns = (Math.ceil(second))
+//   	return minAns + " minutes and " + secAns + " seconds"
+// }
 
 
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
