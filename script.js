@@ -845,6 +845,23 @@
 // }
 
 
+// fizzbuzz in an array
+// function fizzbuzz(n){
+//   arr = []
+//   for(i=1; i<=n; i++){
+//     if (i%3 == 0 && i%5 == 0 ){
+// 		arr.push("FizzBuzz");
+// 		} else if (i%3 == 0){
+// 			arr.push("Fizz")
+// 		} else if (i%5 == 0){
+// 			arr.push("Buzz")
+// 		} else {
+// 			arr.push(i)
+// 		}
+// 	}
+//   return arr
+// }
+
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
 
 // console.log(week[week.length-1])
