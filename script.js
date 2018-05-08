@@ -862,6 +862,63 @@
 //   return arr
 // }
 
+
+// Compare two strings by comparing the sum of their values (ASCII character code).
+
+// For comparing treat all letters as UpperCase
+// null/NULL/Nil/None should be treated as empty strings
+// If the string contains other characters than letters, treat the whole string as it would be empty
+// Your method should return true, if the strings are equal and false if they are not equal.
+
+// Examples:
+// "AD", "BC"  -> equal
+// "AD", "DD"  -> not equal
+// "gf", "FG"  -> equal
+// "zz1", ""   -> equal (both are considered empty)
+// "ZzZz", "ffPFF" -> equal
+// "kl", "lz"  -> not equal
+// null, ""    -> equal
+
+// function compare(s1, s2) {
+// 	bool = false
+// 	sum1 = 0;
+// 	sum2 = 0;
+// 	for(i=0; i<s1.length; i++){
+// 		sum1 += (s1[i].charCodeAt())
+// 	}
+// 	for(i=0; i<s2.length; i++){
+// 		sum2 += (s2[i].charCodeAt())
+// 	}
+// 	if( sum1 == sum2){
+// 		bool = true
+// 	}
+// 	return bool 
+// }
+
+// Get the middle character
+// You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+// #Examples:
+// Kata.getMiddle("test") should return "es"
+// Kata.getMiddle("testing") should return "t"
+// Kata.getMiddle("middle") should return "dd"
+// Kata.getMiddle("A") should return "A"
+// #Input
+// A word (string) of length 0 < str < 1000 (In javascript you may get slightly more than 1000 in some test cases due to an error in the test cases). You do not need to test for this. This is only here to tell you that you do not need to worry about your solution timing out.
+// #Output
+// The middle character(s) of the word represented as a string.
+
+var s = "test"
+var ss = "testing"
+
+function getMiddle(s)  {
+	let total = s.length
+	if(total%2 ==0){
+		return ((s[((total/2)-1)])+(s[(total/2)]))
+	} else if (total%2 !== 0) {
+		return ((s[(total/2)-(0.5)]))
+	}
+}
+
 // week = [[100,75,49],[20,15,20],[10,15,10],[50,50,20],[20,15,10],[20,15,10],[20,15,10],1]
 
 // console.log(week[week.length-1])
